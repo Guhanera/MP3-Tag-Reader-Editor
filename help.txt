@@ -1,0 +1,23 @@
+Usage:
+  -v <file_name>
+      View metadata of the specified file.
+
+  -e <tag> <new_value> <file_name>
+      Edit metadata of the specified file.
+
+
+Tags:
+  -t    Title
+  -y    Year
+  -a    Artist
+  -A    Album
+  -g    Genre
+  -c    Comment
+
+
+Examples:
+  View metadata
+      ./a.out -v song.mp3
+
+  Update title
+      ./a.out -e -t "New Title" song.mp3
